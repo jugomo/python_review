@@ -15,7 +15,7 @@ del countries[0]
 print(countries)
 
 # add a country in the middle
-countries.insert(len(countries)/2, "myanMar")
+countries.insert(int(len(countries)/2), "myanMar")
 print(countries)
 
 # -------------
